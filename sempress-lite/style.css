@@ -29,6 +29,7 @@ body {
     box-shadow: none;
 }
 article.page, article.post, article.attachment {
+    background: none;
     border: none;
     border-bottom: 1px solid #CCCCCC;
     border-radius: 0;
