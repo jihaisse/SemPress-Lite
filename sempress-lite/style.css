@@ -1,0 +1,92 @@
+/*
+Theme Name:     SemPress Lite
+Theme URI:      http://example.com/
+Description:    Lite version of SemPress
+Author:         Jihaisse
+Author URI:     http://jihais.se
+Template:       sempress                             
+Version:        0.1.0
+*/
+
+body {
+    font-size:120%;
+    font-family: "PT Serif",Georgia,sans-serif;
+    background-image:none;
+}
+#branding {
+    margin-top:0px;
+}
+#access,
+#content nav#nav-above {
+    display:none;
+}
+#main {
+    padding-top: 25px;
+}
+#page img.avatar {
+    box-shadow: none;
+}
+article.page, article.post, article.attachment {
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0;
+    box-shadow: none;
+}
+.entry-content, .entry-title, .entry-meta, .entry-summary {
+    padding: 0;
+}
+.entry-header .entry-title, .entry-header .entry-title a {
+    padding-top:0;
+}
+blockquote p {
+    font-size: 1em;
+}
+.entry-content, .entry-summary {
+    line-height: 1.7em;
+    margin-bottom:0;
+}
+.entry-meta {
+    font-size:0.7em;
+}
+.usyndication {
+    font-size:0.7em;
+    color:#ccc;
+}
+
+.usyndication li,
+.usyndication ul {
+    display:inline;
+}
+
+.usyndication ul {
+    padding:0 0 0 5px;
+}
+
+.usyndication li+li:before{
+    content:"| ";
+}
+
+.usyndication a{
+    color:#ccc;
+    text-decoration:underline;
+}
+
+.post:hover .usyndication,
+.post:hover .usyndication a{
+    color:#777;
+}
+#content .post, #content .page {
+    margin-bottom: 30px;
+}
+.format-aside:before, .format-video:before, .format-audio:before, .format-image:before, .format-gallery:before, .format-link:before, .format-quote:before, .format-chat:before, .error404:before, .sticky:before, .format-status .entry-meta .avatar {
+    top: 35px;
+}
+footer.entry-meta {
+    font-size:0.7em;
+    padding:0;
+}
+
+#text-2 img.avatar{
+    float: left;
+    margin-right: 10px;
+}
