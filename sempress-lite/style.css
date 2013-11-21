@@ -8,6 +8,8 @@ Template:       sempress
 Version:        0.1.0
 */
 
+@import url("../sempress/style.css");
+
 body {
     font-size:120%;
     font-family: "PT Serif",Georgia,sans-serif;
