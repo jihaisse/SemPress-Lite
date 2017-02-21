@@ -94,3 +94,15 @@ footer.entry-meta {
     float: left;
     margin-right: 10px;
 }
+
+li#social-facebook-like li{
+	list-style: none outside none;
+	display:inline;
+	margin-right:5px;
+}
+li#social-facebook-like ul li img.avatar {
+    float:none;
+}
+li#social-facebook-like ul li cite{
+	display:none;
+}

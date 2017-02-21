@@ -9,4 +9,5 @@ remove_action( 'wp_head', 'sempress_customize_css');
 * Tell WordPress to run sempress_setup() when the 'after_setup_theme' hook is run.
 */
 add_action( 'after_setup_theme', 'sempress_lite_setup', 30 );
+wp_enqueue_script('facebooklikes', get_stylesheet_directory_uri() . '/facebooklikes.js', 'jquery', '1.0', true);
 ?>
